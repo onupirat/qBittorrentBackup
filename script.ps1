@@ -139,4 +139,4 @@ $form.Controls.Add($backupPanel)
 $form.Controls.Add($restorePanel)
 
 # Show form
-$form.ShowDialog()
+$form.ShowDialog() | Out-Null
